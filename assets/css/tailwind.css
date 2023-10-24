@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-img {
+        background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/call_to_action.png);
+        background-position: center;
+        background-repeat:  no-repeat;
+        /* background-attachment: fixed; */
+        background-size:  cover;
+
+ }
+
+ .trans{
+        @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-800 duration-300
+ }
+
+ .list{
+        @apply relative hover:text-yellow-800 tracking-[1px] font-normal text-base
+ }
+
+ .list::after{
+        @apply content-[''] bg-yellow-800 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+ }
+
+ .list:hover::after{
+        @apply w-[100%]
+ }
+

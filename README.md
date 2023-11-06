@@ -73,3 +73,5 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+[clip path generator](https://bennettfeely.com/clippy/#:~:text=The%20clip-path%20property%20allows,the%20same%20number%20of%20points)

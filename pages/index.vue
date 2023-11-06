@@ -1,5 +1,8 @@
 <template>
   <Hero />
-
-  <section class="max-w-full h-screen"></section>
+  <div class="px-[30px]">
+    <About />
+    <Community />
+    <Contact />
+  </div>
 </template>

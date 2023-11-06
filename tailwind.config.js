@@ -12,7 +12,7 @@ export default {
     extend: {
       colors: {
         primary:"#E3DBDB",
-        browncolor: "#B38A3A"
+        brown: "#B38A3A"
       }
     },
   },

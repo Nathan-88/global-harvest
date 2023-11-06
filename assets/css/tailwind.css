@@ -12,19 +12,66 @@
 
  }
 
- .trans{
-        @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-800 duration-300
- }
+
+.clips {
+       clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 96%, 80% 88%, 59% 97%, 39% 88%, 20% 96%, 0% 85%);
+}
 
  .list{
-        @apply relative hover:text-yellow-800 tracking-[1px] font-normal text-base
+        @apply relative hover:text-yellow-800 tracking-[1px] font-normal text-base;
  }
 
  .list::after{
-        @apply content-[''] bg-yellow-800 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+        @apply content-[''] bg-gradient-to-r from-yellow-500 to-amber-800 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300;
  }
 
  .list:hover::after{
-        @apply w-[100%]
+        @apply w-[100%];
  }
 
+/* Hamburer Menu */
+.hamburger {
+       cursor: pointer;
+       width: 24px;
+       height: 24px;
+       transition: all 0.25s;
+       position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+       position: absolute;
+       top:0;
+       left: 0;
+       width: 24px;
+       height: 2px;
+       background-color: #000;
+       transform: rotate(0);
+       transition: all 0.5s;
+}
+
+.hamburger-middle {
+       transform: translatey(7px);
+}
+
+.hamburger-bottom {
+       transform: translateY(14px);
+}
+
+.open{
+       transform: rotate(90deg);
+       transform: translatey(0px);
+}
+
+.open .hamburger-top{
+       transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle{
+       display: none;
+}
+
+.open .hamburger-bottom{
+       transform: rotate(-45deg) translateY(6px) translate(-6px);
+}

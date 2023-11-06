@@ -1,16 +1,61 @@
 <template>
-    <div class="grid md:grid-cols-3 space-x-4 gap-10 p-6 bg-black text-white"> 
-        <div class="text-center m-2">
-            <h2 class="text-4xl font-extrabold mb-2">ABOUT US</h2>
-            <P class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum facilis quae illo facere tenetur aperiam explicabo ducimus, sequi mollitia a vitae aspernatur dolorum praesentium soluta perspiciatis dolorem neque, eius fugiat!</P>
+    <!-- grid md:grid-cols-4 space-x-4 p-6 space-y-4 bg-black text-white -->
+    <div class="bg-black flex flex-col-reverse justify-between px-6 py-8 mx-auto space-y-8 md:flex-row md:space-y-0"> 
+        <!-- logo and social links container -->
+        <div class="flex flex-col-reverse md:items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+            <!-- copy rights only on phone screen -->
+            <div class="mx-auto my-4 text-center text-white md:hidden">
+                Copyright &copy; 2023, All Rights Reserved
+            </div>
+            <!-- logo -->
+            <div class="pb-1">
+                <NuxtLink to="/"><img class="md:mx-auto h-32" src="../assets/images/global-harvest-preview.png" alt="Global Harvest Network logo" ></NuxtLink>
+                <p class="text-xs text-white md:text-sm font-bold">Global Harvest Network</p>
+            </div>
+            <!-- Social Links Container -->
+            <div class="flex md:justify-center space-x-6 pb-4 md:pt-4">
+                <!-- Link 1 -->
+                <NuxtLink href="#">
+                    <img src="../assets/images/facebook.png" />
+                </NuxtLink>
+                <!-- Link 2 -->
+                <NuxtLink href="#">
+                    <img src="../assets/images/twitter.png" />
+                </NuxtLink>
+                <!-- Link 3 -->
+                <NuxtLink href="#">
+                    <img src="../assets/images/instagram.png" />
+                </NuxtLink>
+            </div>
         </div>
-        <div class=" text-center pb-1">
-        <NuxtLink to="/"><img class="mx-auto" src="../assets/images/logo_footer_image.png" alt="Global Harvest Network logo" ></NuxtLink>
-        <p class="text-xs md:text-sm font-bold">Global Harvest Network</p>
+        <!-- List containers -->
+        <div class=" text-white md:pt-4 md:hidden lg:block">
+            <ul class="list-none w-fit flex flex-col justify-around space-y-4">
+            <li class="list"><NuxtLink to="/">Home</NuxtLink></li>
+            <li class="list"><NuxtLink to="/about">About</NuxtLink></li>
+            <li class="list"><NuxtLink to="/#comm">communities</NuxtLink></li>
+            <li class="list"><NuxtLink to="/#gallery">Gallery</NuxtLink></li>
+            </ul>
         </div>
-        <div>
-            <p>Follow us</p>
-            <div></div>
+        <!-- contacts -->
+        <div class=" text-white flex flex-col justify-around space-y-2">
+            <p>GHN-NIGERIA: Contact</p>
+            <p>GHN-USA: Contact</p>
+            <p>GHN-UK: Contact</p>
+            <p>GHN-CANADA: Contact</p>
+        </div>
+        <!-- input container -->
+        <div class="flex flex-col justify-between">
+            <form>
+                <div class="flex space-x-3">
+                    <input type="email" id="email" name="email" class="flex-1 px-4 rounded-full focus:outline-none" placeholder="Enter your email" />
+                    <button class="px-6 py-2 rounded-full bg-brown text-white hover:bg-amber-700 focus:outline-none">Subscribe</button>
+    
+                </div>
+            </form>
+            <div class="hidden text-white md:block">
+                Copyright &copy; 2023, All Rights Reserved
+            </div>
         </div>
     </div>
 </template>

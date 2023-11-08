@@ -2,19 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.bg-img {
-        background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/call_to_action.png);
-        background-position: center;
-        background-repeat:  no-repeat;
-        /* background-attachment: fixed; */
-        background-size:  cover;
-
- }
-
+html{
+       scroll-behavior: smooth;
+}
 
 .clips {
-       clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 96%, 80% 88%, 59% 97%, 39% 88%, 20% 96%, 0% 85%);
+       -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+       clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.clip-about {
+       -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+       clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
  .list{

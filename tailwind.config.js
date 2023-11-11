@@ -12,11 +12,13 @@ export default {
     extend: {
       colors: {
         primary:"#E3DBDB",
-        brown: "#B38A3A"
+        brown: "#B38A3A",
+        red: "#ff561d"
       },
       backgroundImage: {
         bible: "linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('assets/images/blackspray.png')",
-        hero: "linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('assets/images/call_to_action.png')"
+        hero: "linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('assets/images/home.png')",
+        blog: "linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('assets/images/blog2.png')"
       }
     },
   },

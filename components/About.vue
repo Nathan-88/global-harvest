@@ -10,7 +10,7 @@
         <diV class="hidden md:block lg:hidden">
           <img class="rounded-lg h-[630px] object-cover object-center" src="../assets/images/together.png"/>
         </diV>
-        <div>
+        <div class="text-gray-950">
           <h2 class="text-3xl font-bold pb-6 md:text-3xl">About Global Harvest Network</h2>
           <p class="max-w-full">At Global Harvest And Network, we
           exist to empower and uplift believers who have embarked on the courageous

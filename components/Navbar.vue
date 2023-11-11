@@ -4,13 +4,13 @@
             <div class=" text-center">
               <NuxtLink to="/"><img class="mx-auto w-[96px] h-[auto] pt-1" src="../assets/images/global-harvest-preview.png" alt="Global Harvest Network logo" ></NuxtLink>
             </div>
-            <ul class="hidden md:flex items-center space-x-8 text-md list-none">
-                <li class="list"><NuxtLink to="/">Home</NuxtLink></li>
-                <li class="list"><NuxtLink to="/about">About</NuxtLink></li>
-                <li class="list"><NuxtLink to="/#comm">Blog</NuxtLink></li>
-                <li class="list"><NuxtLink to="/#comm">communities</NuxtLink></li>
-                <li class="list"><NuxtLink to="/#gallery">Gallery</NuxtLink></li>
-                <li ><NuxtLink to="#contact"><button class="hover:bg-yellow-800 text-white font-semibold py-2 px-5 rounded-full text-lg transition duration-300 transform hover:scale-105 bg-brown">contact us</button></NuxtLink></li>
+            <ul class="hidden md:flex items-center space-x-8 text-md list-none ">
+                <li class="list"><NuxtLink to="/" class="font-semibold" >Home</NuxtLink></li>
+                <li class="list"><NuxtLink to="/about" class="font-semibold">About</NuxtLink></li>
+                <li class="list"><NuxtLink to="/blog/blog" class="font-semibold">Blog</NuxtLink></li>
+                <li class="list"><NuxtLink to="/#comm" class="font-semibold">communities</NuxtLink></li>
+                <li class="list"><NuxtLink to="/#gallery" class="font-semibold">Gallery</NuxtLink></li>
+                <li ><NuxtLink to="/#contact"><button class="hover:bg-yellow-800 text-white font-semibold py-2 px-5 rounded-full text-lg transition duration-300 transform hover:scale-105 bg-brown">contact us</button></NuxtLink></li>
             </ul>
             <!-- Hamburger Icon -->
             <button id="menu-btn" @click="toggleMenu" :class="{ open: isMenuOpen }" class="block hamburger md:hidden focus:outline-none">

@@ -4,7 +4,7 @@
         
             <!-- text section -->
             <div class="p-6 text-gray-950">
-                <h1 class="mx-auto pb-2 font-bold underline text-center text-3xl">STAY CONNECTED WITH</h1>
+                <h1 class="mx-auto pb-2 font-bold underline decoration-double text-center text-3xl">STAY CONNECTED WITH</h1>
                 <div class="p-3 px-6">
                     <span class="text-xl pr-3 font-bold">GLOBAL COMMUNITY:</span>
                     <p class="mt-2 text-sm md:text-base"> You are not alone. Global Harvest And Network connects you with like-minded individuals from various parts of the world who share your experiences and challenges. Our platform fosters a sense of belonging and camaraderie, allowing you to build a meaningful lasting relationship with fellow reliable believers.

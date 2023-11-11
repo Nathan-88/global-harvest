@@ -6,6 +6,9 @@ html{
        scroll-behavior: smooth;
 }
 
+.con p:not(:last-child){
+  @apply mb-4  
+} 
 .clips {
        -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
        clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);

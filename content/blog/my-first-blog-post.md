@@ -3,7 +3,7 @@ title: "MAN ON A MISSION: Holding Firm In A Foreign Land"
 author: "Pst Ckan"
 dates:
     published: "2023-11-09"
-description: "In a foreign land, Ayomide, a modern-day 'Daniel,' stands firm in his Christian faith amid cultural challenges. Inspired by biblical resilience, he thrives with unwavering commitment, supported by a community akin to Daniel's companions. Ayomide's journey echoes the timeless truth—firm faith yields divine favor and a steadfast Christian testimony in life's foreign lands. A testament to the enduring power of faith. Amen!"
+description: "In a foreign land, Ayomide, a modern-day 'Daniel,' stands firm in his Christian faith amid cultural challenges. Inspired by biblical resilience, he thrives with unwavering commitment, supported by a community akin to Daniel's companions. Ayomide's journey echoes the timeless truth—firm faith yields divine favor and a steadfast Christian testimony in life's foreign lands. A testament to the enduring power of faith."
 ---
 
 In a world characterized by shifting sands of culture and temptations, there

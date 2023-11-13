@@ -24,7 +24,7 @@
         <div v-if="isMenuOpen" id="menu" class="flex flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right- drop-shadow-md">
           <NuxtLink class="list" to="/">Home</NuxtLink>
           <NuxtLink class="list" to="/about">About</NuxtLink>
-          <NuxtLink class="list" to="/blog">Blog</NuxtLink>
+          <NuxtLink class="list" to="/blog/blog">Blog</NuxtLink>
           <NuxtLink class="list" to="/#comm">communities</NuxtLink>
           <NuxtLink class="list" to="/#Gallery">Gallery</NuxtLink>
           <NuxtLink class="list" to="/#contact">Contact</NuxtLink>

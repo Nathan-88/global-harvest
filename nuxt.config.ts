@@ -8,7 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "nuxt-swiper"],
+  // ssr: false,
+  // spaLoadingTemplate: 'spa-loading-template.html',
 
 
 })

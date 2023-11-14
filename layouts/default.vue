@@ -1,9 +1,9 @@
 <template>
-    <!-- output the page content -->
-
+  <div>
+    <Navbar />
     <main class="relative scroll-smooth">
-        <Navbar />
-        <slot class="" />
+      <slot />
     </main>
     <Footer />
+  </div>
 </template>

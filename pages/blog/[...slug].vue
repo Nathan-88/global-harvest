@@ -9,7 +9,7 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
 </script>
 
 <template>
-    <section class="mt-16 md:mt-20">
+    <section class="">
         <div v-if="blogPost" class="max-w-screen-xl mx-auto px-4
         lg:px-8 xl:px-52 2xl:px-72 pt-16 pb-2 text-gray-900 dark:text-white">
         <!-- Blog Post -->

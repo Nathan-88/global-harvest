@@ -1,7 +1,7 @@
 <template>
   <Hero />
-  <div class="px-[30px]">
-    <About />
+  <div >
+    <About class="px-[30px]"/>
     <Community />
     <Carousel />
     <Contact />

@@ -1,29 +1,32 @@
 <template>
-  <section id="comm" class="mx-auto max-w-md overflow-hidden rounded-lg shadow-lg md:max-w-full mb-20 ">
+  <section id="comm" class="mx-auto max-w-md overflow-hidden rounded-lg pt-12 md:max-w-full mb-20 ">
         <div class="flex flex-col-reverse md:grid md:grid-cols-2">
-            <form id="contact" @submit.prevent="submitForm" class="p-6">
-                <div class="mb-4">
-                <label for="name" class="block  font-bold mb-2">Name</label>
-                <input v-model="formData.name" type="text" id="name" name="name" class="border rounded w-full py-2 px-3">
-                </div>
+            <div class="px-6 md:pl-6">
+              <form id="contact" @submit.prevent="submitForm" class="p-6 lg:shadow-md rounded-lg">
+                  <h2 class="py-6 text-2xl font-bold">CONTACT US</h2>
+                  <div class="mb-4">
+                  <label for="name" class="block  font-bold mb-2">Name</label>
+                  <input v-model="formData.name" type="text" id="name" name="name" class="border rounded w-full py-2 px-3">
+                  </div>
 
-                <div class="mb-4">
-                <label for="email" class="block font-bold mb-2">Email</label>
-                <input v-model="formData.email" type="email" id="email" name="email" class="border rounded w-full py-2 px-3">
-                </div>
+                  <div class="mb-4">
+                  <label for="email" class="block font-bold mb-2">Email</label>
+                  <input v-model="formData.email" type="email" id="email" name="email" class="border rounded w-full py-2 px-3">
+                  </div>
 
-                <div class="mb-4">
-                <label for="question" class="block font-bold mb-2">Question</label>
-                <textarea v-model="formData.question" id="question" name="question" rows="4" class="border rounded w-full py-2 px-3"></textarea>
-                </div>
+                  <div class="mb-4">
+                  <label for="question" class="block font-bold mb-2">Question</label>
+                  <textarea v-model="formData.question" id="question" name="question" rows="4" class="border rounded w-full py-2 px-3"></textarea>
+                  </div>
 
-                <div class="mb-4">
-                <label for="subscribe" class="block font-bold mb-2">Subscribe to newsletter</label>
-                <input v-model="formData.subscribe" type="checkbox" id="subscribe" name="subscribe" class="mr-2">
-                </div>
+                  <div class="mb-4">
+                  <label for="subscribe" class="block font-bold mb-2">Subscribe to newsletter</label>
+                  <input v-model="formData.subscribe" type="checkbox" id="subscribe" name="subscribe" class="mr-2">
+                  </div>
 
-                <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Submit</button>
-            </form>
+                  <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Submit</button>
+              </form>
+            </div>
 
             <!-- contact section -->
             <div class=" md:shrink-0 text-gray-900 p-6 flex flex-col items-start  mt-6">
@@ -92,8 +95,9 @@ export default {
     };
   },
   methods: {
-    submitForm() {
+    submitForm(data) {
       // Handle form submission here
+      // console.log(data);
       console.log(this.formData);
       // You can send this data to your server or API for processing
     },

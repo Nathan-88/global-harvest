@@ -1,7 +1,7 @@
 
 import type hero_blogVue from '~/components/hero_blog.vue';
 <template>
-    <section class="mt-16 md:mt-20">
+    <section class="">
       <hero_blog />
       <BlogPostList />
     </section>

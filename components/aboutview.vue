@@ -1,6 +1,6 @@
 <template>
     <section class=" ">
-        <div class="hero relative mx-auto text-center bg-cover bg-center flex flex-col justify-center text-white items-center max-w-full h-[40vh]  bg-bible lg:h-[60vh]">
+        <div class="relative mx-auto text-center bg-cover bg-center flex flex-col justify-center text-white items-center max-w-full h-[40vh]  bg-bible lg:h-[60vh]">
             <h2 class="text-xl mdtext-4xl sm:text-3xl font-extrabold mb-4">Learn more about Global Harvest Network</h2>
             <p class="text-md font-medium md:text-2xl mb-6 whitespace-normal">See What God can do through you</p>
         </div>
@@ -9,12 +9,12 @@
     <section class="flex flex-col overflow-hidden text-center items-center justify-center m-10">
         <!-- about section -->
          <div class="text-start md:grid md:content-center grid-cols-2 gap-6 mx-auto">
-            <diV class="clips hidden lg:block">
+            <div class="clips hidden lg:block">
                 <img class="rounded-lg h-full object-cover object-center" src="../assets/images/together.png"/>
-            </diV>
-            <diV class="pt-5 hidden md:block lg:hidden">
+            </div>
+            <div class="pt-5 hidden md:block lg:hidden">
                 <img class=" rounded-lg h-[800px] object-cover object-center" src="../assets/images/together.png"/>
-            </diV>
+            </div>
             <div class="p-4">
                 <h2 class="text-3xl font-bold pb-4 md:text-3xl underline decoration-gray-700 decoration-double">Welcome to Global Harvest Network</h2>
                 <p class="py-4">

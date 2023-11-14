@@ -4,20 +4,13 @@
 
 html{
        scroll-behavior: smooth;
-       scroll-padding: 5rem;
 }
 
 .con p:not(:last-child){
   @apply mb-4  
 } 
 .clips {
-       -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-       clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-}
-
-.clip-about {
-       -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-       clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+       clip-path: circle(46.4% at 50% 51%);
 }
 
  .list{

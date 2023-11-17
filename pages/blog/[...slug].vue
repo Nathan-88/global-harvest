@@ -11,7 +11,7 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
 <template>
     <section class="">
         <div v-if="blogPost" class="max-w-screen-xl mx-auto px-4
-        lg:px-8 xl:px-52 2xl:px-72 pt-16 pb-2 text-gray-900 dark:text-white">
+        lg:px-8 xl:px-52 2xl:px-72 pt-16 pb-2 text-gray-900">
         <!-- Blog Post -->
         <div class="mx-auto text-center bg-cover bg-center flex flex-col justify-center text-white items-center max-w-full h-[40vh]  bg-blog lg:h-[60vh] mb-4">
             <h2 class="text-xl mdtext-4xl sm:text-3xl font-extrabold mb-4 w-[70vw] sm:w-[50vw]">{{ blogPost.title }}</h2>

@@ -13,17 +13,17 @@
                 <p class="text-xs text-white md:text-sm font-bold">Global Harvest Network</p>
             </div>
             <!-- Social Links Container -->
-            <div class="flex md:justify-center space-x-6 pb-4 md:pt-4 active:tran">
+            <div class="flex md:justify-center space-x-6 pb-4 md:pt-4">
                 <!-- Link 1 -->
-                <NuxtLink href="https://www.facebook.com/61553665675623/" target="_blank">
+                <NuxtLink href="https://m.facebook.com/p/Global-Harvest-Network-61553665675623" target="_blank" class=" active:scale-90">
                     <img src="../assets/images/facebook.png" />
                 </NuxtLink>
                 <!-- Link 2 -->
-                <NuxtLink href="#" target="_blank">
+                <NuxtLink href="#" class="active:scale-90">
                     <img src="../assets/images/twitter.png" />
                 </NuxtLink>
                 <!-- Link 3 -->
-                <NuxtLink href="https://instagram.com/globalharvestnetwork?igshid=bHh1djM3MDNxMzRt" target="_blank">
+                <NuxtLink href="https://www.instagram.com/globalharvestnetwork?igshid=bHh1djM3MDNxMzRt" target="_blank" class=" active:scale-90">
                     <img src="../assets/images/instagram.png" />
                 </NuxtLink>
             </div>

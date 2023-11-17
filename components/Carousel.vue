@@ -1,33 +1,31 @@
 <template>
-  <div class="w-full lg:bg-bible ">
+  <section id="gallery" class="w-full pt-4 overflow-hidden">
+    <h2 class="text-center py-6 font-bold text-3xl sm:text-4xl">GALLERY</h2>
       <Swiper
-      :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperScrollbar, SwiperNavigation, SwiperPagination]"
-      :slides-per-view="1"
+      :modules="[SwiperAutoplay, SwiperEffectCoverflow, SwiperPagination]"
+      :slides-per-view="'auto'"
+      :centered-slides="true"
+      :grab-cursor="true"
       :pagination="{clickable: true}"
       :loop="true"
-      :navigation ="{clickable: true}"
-      :space-between="10"
-      :effect="'creative'"
-      :scrollbar="{ draggable: true }"
       :autoplay="{
         delay: 4000,
         disableOnInteraction: false
       }"
-      :creative-effect="{
-        prev: {
-          shadow: false,
-          translate: ['-20%', 0, -1]
-        },
-        next: {
-          translate: ['100%', 0, 0]
-        }
+      :effect="'coverflow'"
+      :coverflow-effect="{
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
       }"
-    class="flex justify-center items-center  lg:w-[50%]">
-      <SwiperSlide v-for="item in items" :key="item.id" class="">
-        <img :src="`_nuxt/assets/images/` + item.image"  class="w-[100vw] object-cover h-[400px]" alt="Item image" />
+      >
+      <SwiperSlide v-for="item in items" :key="item.id" class="shadow-lg rounded-lg">
+        <img :src="`_nuxt/assets/images/` + item.image"  class="object-cover rounded-lg " alt="Item image" />
       </SwiperSlide>
     </Swiper>
-    </div>
+    </section>
 </template>
 
 <script setup>
@@ -40,5 +38,25 @@ const items = ref([
   { id: 5, image: 'gal5.webp' },
 ]);
 </script>
+
+<style scoped>
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  /* height: auto; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+</style>
 
 

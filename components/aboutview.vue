@@ -18,13 +18,11 @@
             <div class="p-4">
                 <h2 class="text-3xl font-bold pb-4 md:text-3xl underline decoration-gray-700 decoration-double">Welcome to Global Harvest Network</h2>
                 <p class="py-4">
-                    Welcome to Global Harvest And Network, a vibrant and Christ-Centered community that connect Christians from diverse backgrounds and locations in fellowship, prayer and spiritual support.
+                    Welcome to Global Harvest Network, a vibrant and Christ-Centered community that connect Christians from diverse backgrounds and locations in fellowship, prayer and spiritual support.
                 </p>
-                <p class=" md:py-4">At Global Harvest And Network, we
+                <p class=" md:py-4">At Global Harvest Network, we
                 exist to empower and uplift believers who have embarked on the courageous
-                journey of living out their faith in a foreign country. Global Harvest And
-                Network is not just an outreach; its rather a family of believers committed to
-                walking the faith journey together. . We invite you to become a part of our community, connect with Christians from around the world, and discover the strength that comes from unity in Christ. No matter where you are, your faith can flourish. Let Global Harvest And Network be your guide as you live out your Christian calling in a diverse and dynamic world.</p>
+                journey of living out their faith in a foreign country. Global Harvest Network is not just an outreach; its rather a family of believers committed to walking the faith journey together. . We invite you to become a part of our community, connect with Christians from around the world, and discover the strength that comes from unity in Christ. No matter where you are, your faith can flourish. Let Global Harvest Network be your guide as you live out your Christian calling in a diverse and dynamic world.</p>
                 <p class="mt-4">
                     Together, We Harvest Faith Across Continents with the commitment to building a strong global homogeneous community of believers who share a common bond in Christ until we all come to the point where we are referred to as homeostasis sect that remain relatively constant despite changes in our external environment….(world)
                 </p>

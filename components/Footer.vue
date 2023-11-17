@@ -13,17 +13,17 @@
                 <p class="text-xs text-white md:text-sm font-bold">Global Harvest Network</p>
             </div>
             <!-- Social Links Container -->
-            <div class="flex md:justify-center space-x-6 pb-4 md:pt-4">
+            <div class="flex md:justify-center space-x-6 pb-4 md:pt-4 active:tran">
                 <!-- Link 1 -->
-                <NuxtLink href="#">
+                <NuxtLink href="https://www.facebook.com/61553665675623/" target="_blank">
                     <img src="../assets/images/facebook.png" />
                 </NuxtLink>
                 <!-- Link 2 -->
-                <NuxtLink href="#">
+                <NuxtLink href="#" target="_blank">
                     <img src="../assets/images/twitter.png" />
                 </NuxtLink>
                 <!-- Link 3 -->
-                <NuxtLink href="#">
+                <NuxtLink href="https://instagram.com/globalharvestnetwork?igshid=bHh1djM3MDNxMzRt" target="_blank">
                     <img src="../assets/images/instagram.png" />
                 </NuxtLink>
             </div>
@@ -33,6 +33,7 @@
             <ul class="list-none w-fit flex flex-col justify-around space-y-4">
             <li class="list"><NuxtLink to="/">Home</NuxtLink></li>
             <li class="list"><NuxtLink to="/about">About</NuxtLink></li>
+            <li class="list"><NuxtLink to="/blog/blog">Blog</NuxtLink></li>
             <li class="list"><NuxtLink to="/#comm">communities</NuxtLink></li>
             <li class="list"><NuxtLink to="/#gallery">Gallery</NuxtLink></li>
             </ul>

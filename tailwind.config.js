@@ -13,7 +13,9 @@ export default {
       colors: {
         primary:"#E3DBDB",
         brown: "#B38A3A",
-        red: "#ff561d"
+        redd: "#ff561d",
+        cream: "#fff6d4",
+        comcolor: "#F4E9E9"
       },
       backgroundImage: {
         bible: "linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('assets/images/blackspray.png')",

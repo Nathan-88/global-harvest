@@ -18,13 +18,13 @@
           Network is not just an outreach; its rather a family of believers committed to
           walking the faith journey together. . We invite you to become a part of our community, connect with Christians from around the world, and discover the strength that comes from unity in Christ. No matter where you are, your faith can flourish. Let Global Harvest Network be your guide as you live out your Christian calling in a diverse and dynamic world.</p>
           <p class="hidden md:block mt-4">
-            Together, We Harvest Faith Across Continents with the commitment to building a strong global homogeneous community of believers who share a common bond in Christ until we all come to the point where we are referred to as homeostasis sect that remain relatively constant despite changes in our external environment….(world)
+            Together, We Harvest Faith Across Continents with the commitment to building a strong global homogeneous community of believers who share a common bond in Christ until we all come to the point where we are referred to as homeostasis sect that remain relatively constant despite changes in our external environment…
           </p>
         </div>
       </div>
         
         <!-- button -->
-        <NuxtLink to="/about" class="hidden md:mt-12  md:block"><button class="hover:bg-yellow-800 font-bold p-2 px-4 text-lg transition duration-1000 hover:translate-y-2 hover:scale-110 text-linear rounded-lg focus:outline-none focus-visible:ring">Learn more &#187</button></NuxtLink>
+        <NuxtLink to="/about" class="hidden md:mt-12  md:block"><button class="hover:bg-comcolor font-bold p-2 px-4 text-lg transition duration-1000 hover:translate-y-2 hover:scale-110 text-linear rounded-lg focus:outline-none focus-visible:ring">Learn more &#187</button></NuxtLink>
     </div>
     <!--three images -->
     <div class="mx-auto md:flex space-y-6  space-x-6 md:space-y-0">

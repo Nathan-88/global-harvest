@@ -10,11 +10,12 @@ export default defineNuxtConfig({
   },
   modules: ["@nuxt/content", "nuxt-swiper"],
   swiper: {
-    // Swiper options
-    //----------------------
-    // prefix: 'Swiper',
     styleLang: 'css',
-    // modules: ['navigation', 'pagination'], // all modules are imported by default
+  },
+  runtimeConfig: {
+    public:{
+      SENDGRID_API_KEY: process.env.SENDGRID_API_KEY
+    }
   }
   // ssr: false,
   // spaLoadingTemplate: 'spa-loading-template.html',

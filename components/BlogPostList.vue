@@ -14,11 +14,11 @@ const { data: blogPostList } = await useAsyncData('blogPostList', () => {
     bg-white dark:bg-gray-800">
     <NuxtLink :to="posts._path">
         <h2 class="text-xl font-bold text-black hover:underline p-3 start">{{ posts.title }}</h2>
-        <div class=" p-2">
+        <div class=" px-2">
             {{ posts.description }}
-        
-        <BlogPostMeta :author="posts.author" :date="posts.dates.published" />
         </div>
+        <BlogPostMeta :author="posts.author" :date="posts.dates.published" />
+
 
     </NuxtLink>
     </div>

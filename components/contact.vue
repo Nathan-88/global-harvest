@@ -1,81 +1,35 @@
 <template>
-  <section id="comm" class="mx-auto max-w-md overflow-hidden rounded-lg pt-12 md:max-w-full mb-20 ">
-        <div class="flex flex-col-reverse md:grid md:grid-cols-2">
-            <div class="px-6 md:pl-6">
-              <form id="contact" @submit.prevent="submitForm" class="p-6 lg:shadow-md rounded-lg">
-                  <h2 class="py-6 text-2xl font-bold">CONTACT US</h2>
+  <!-- action="https://formspree.io/f/mvojnayn"
+  method="POST" -->
+  <section id="comm" class="mx-auto max-w-md overflow-hidden rounded-lg pt-12 lg:mt-6 md:max-w-full mb-20">
+        <div class="flex flex-col-reverse md:flex-row lg:grid lg:grid-cols-2">
+            <div class="px-6 w-full md:pr-0 lg:pr-6">
+              <form id="contact" @submit.prevent="onSubmit" class="sm:p-6 lg:shadow-md rounded-lg">
+                  <h2 class="py-4 text-center md:text-start text-2xl font-bold">CONTACT US</h2>
+                  <!-- forms names -->
                   <div class="mb-4">
-                  <label for="name" class="block  font-bold mb-2">Name</label>
-                  <input v-model="formData.name" type="text" id="name" name="name" class="border rounded w-full py-2 px-3">
+                  <label for="name" class="block font-bold mb-2">Name</label>
+                  <input v-model="name" type="text" id="name" name="name"  required class="border rounded w-full py-2 px-3">
                   </div>
 
                   <div class="mb-4">
                   <label for="email" class="block font-bold mb-2">Email</label>
-                  <input v-model="formData.email" type="email" id="email" name="email" class="border rounded w-full py-2 px-3">
+                  <input v-model="email" type="email" id="email" name="email" required class="border rounded w-full py-2 px-3">
                   </div>
 
                   <div class="mb-4">
                   <label for="question" class="block font-bold mb-2">Question</label>
-                  <textarea v-model="formData.question" id="question" name="question" rows="4" class="border rounded w-full py-2 px-3"></textarea>
+                  <textarea v-model="question" id="question" name="question" rows="4" required class="border rounded w-full py-2 px-3"></textarea>
                   </div>
 
-                  <div class="mb-4">
-                  <label for="subscribe" class="block font-bold mb-2">Subscribe to newsletter</label>
-                  <input v-model="formData.subscribe" type="checkbox" id="subscribe" name="subscribe" class="mr-2">
-                  </div>
-
-                  <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Submit</button>
+                  <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 active:scale-90">Submit</button>
               </form>
             </div>
 
             <!-- contact section -->
-            <div class=" md:shrink-0 text-gray-900 p-6 flex flex-col items-start  mt-6">
-              <div class="p-4">
-                <h2 class="text-2xl font-bold">Socials</h2>
-                <div class="grid grid-cols-3 lg:flex gap-4">
-                  <div class="col-span-3 pt-2 lg:mr-6 space-y-1">
-                    <h1>Email</h1>
-                    <p><NuxtLink to="#" class="text-red">globalharvest@email.com</NuxtLink></p>
-                  </div>
-                  <div class="py-2 space-y-1">
-                    <h1>Instagram</h1>
-                    <p class="px-2">
-                      <NuxtLink href="#">
-                        <img src="../assets/images/instagram.png" />
-                      </NuxtLink>
-                    </p>
-                  </div>
-                  <div class="py-2 space-y-1">
-                    <h1>Facebook</h1>
-                    <p class="px-2">
-                      <NuxtLink href="#">
-                        <img src="../assets/images/facebook.png" />
-                      </NuxtLink>
-                    </p>
-                  </div>
-                  <div class="py-2 space-y-1">
-                    <h1>twitter</h1>
-                    <p class="px-2">
-                      <NuxtLink href="#">
-                        <img src="../assets/images/twitter.png" />
-                      </NuxtLink>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="p-4">
-                <h2 class="text-2xl font-bold">Phones</h2>
-                <div class="flex gap-4">
-                  <div class="py-2">
-                    <h1>GH-NIGERIA</h1>
-                    <p>+23456990455</p>
-                  </div>
-                  <div class="py-2">
-                    <h1>GH-USA</h1>
-                    <p>+355669455</p>
-                  </div>
-                </div>
-              </div>
+            <div class=" md:shrink-0 text-gray-900 p-2 ">
+              <h2 class="text-center md:text-start text-2xl px-4 sm:px-0 py-4 pt-8 font-bold">OUR REGIONS</h2>
+              <img src="../assets/images/map_nw.jpg" class="md:w-[500px] lg:w-full lg:h-[400px] md:h-[350px]" />
 
             </div>
         </div>
@@ -83,23 +37,36 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
-      formData: {
-        name: '',
-        email: '',
-        question: '',
-        subscribe: false,
-      },
+      name: '',
+      email: '',
+      question: '',
     };
   },
   methods: {
-    submitForm(data) {
-      // Handle form submission here
-      // console.log(data);
-      console.log(this.formData);
-      // You can send this data to your server or API for processing
+      onSubmit() {
+      const formData = {
+        name: this.name,
+        email: this.email,
+        question: this.question,
+      };
+
+      axios.post('/api/send-mail', formData)
+      .then(() => {
+        console.log('Email sent sucessfully');
+        alert('Your message has been sent successfully!');
+        this.name ='';
+        this.email = '';
+        this.question = '';
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+        alert('An error occurred while sending your message. Please try again later.');
+      });
     },
   },
 };

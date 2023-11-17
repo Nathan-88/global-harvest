@@ -16,8 +16,11 @@ const formattedDate = computed(() => {
 </script>
 
 <template>
-  <div class="flex items-center space-x-2 mt-4">
-    <span :class="`rounded-full bg-stone-600 text-white px-3 py-1`"> {{ author }}</span>
+  <div class="w-full lg:flex items-center lg:space-x-[40%] mt-4">
+    <div class="p-2">
+    <span :class="`rounded-full bg-stone-600 text-white px-3 mr-2 py-1`"> {{ author }}</span>
     <span :class="`rounded-full bg-stone-600 text-white px-3 py-1`">{{ formattedDate }}</span>
+    </div>
+    <p class="p-2 font-bold text-gray-700 hover:text-black">more &#8594;</p>
   </div>
 </template>

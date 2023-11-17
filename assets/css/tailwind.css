@@ -4,6 +4,11 @@
 
 html{
        scroll-behavior: smooth;
+       @apply font-sans
+}
+
+textarea:focus, input:focus{
+    outline: none;
 }
 
 .con p:not(:last-child){

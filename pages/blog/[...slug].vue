@@ -21,7 +21,7 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
         <div>
             <h2 class="text-center mx-auto font-bold text-3xl p-6 underline decoration-double">{{ blogPost.title }}</h2>
             <article class=" mb-16 p-6 prose max-w-none lg:prose-lg xl:prose-xl
-            2xl:prose-2xl dark:prose-dark">
+            2xl:prose-2xl">
             <ContentDoc class="con"> </ContentDoc>
             </article>
         </div>

@@ -6,7 +6,7 @@
         </div>
         <div class="shadow-lg rounded-lg bg-yellow-800 text-white mx-4 p-8">
             <h2 class="p-4 font-bold text-center">GLOBAL COMMUNITY</h2>
-            <p>Connect with like-minded individuals globally through Global Harvest And Network. Share experiences, overcome challenges, and build lasting relationships with reliable believers. You're not alone; our platform fosters a sense of belonging and camaraderie for meaningful connections.</p>
+            <p>Connect with like-minded individuals globally through Global Harvest Network. Share experiences, overcome challenges, and build lasting relationships with reliable believers. You're not alone; our platform fosters a sense of belonging and camaraderie for meaningful connections.</p>
         </div>
         <div class="shadow-lg rounded-lg bg-amber-900 text-white mx-4 p-8">
             <h2 class="p-4 font-bold text-center">CULTURAL INTEGRATION</h2>

@@ -3,11 +3,11 @@
         <h2 class="font-bold text-3xl text-center underline decoration-gray-700 decoration-double">VISION AND MISSION STATEMENT</h2>
         <p class="p-4">
             <span class="font-semibold text-2xl">Vision Statement: </span>
-        At Global Harvest And Network, we raise kingdom ambassadors as they migrate across the world to thrive in their faith, create meaningful connections, and positively impact their host communities.
+        At Global Harvest Network, we raise kingdom ambassadors as they migrate across the world to thrive in their faith, create meaningful connections, and positively impact their host communities.
         </p>
         <p class="p-4">
             <span class="font-semibold text-2xl" >Mission Statement: </span>
-            At Global Harvest And Network, our mission is to empower and support Christians who have transitioned from Africa to Western nations by providing a nurturing and inclusive community. We are committed to:
+            At Global Harvest Network, our mission is to empower and support Christians who have transitioned from Africa to Western nations by providing a nurturing and inclusive community. We are committed to:
         </p>
         <ul class="list-disc list-inside px-10">
             <li>Strengthening and deepening their Christian faith, ensuring it remains a guiding light in their lives.</li>

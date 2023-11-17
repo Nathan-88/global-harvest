@@ -22,7 +22,7 @@
       }"
       >
       <SwiperSlide v-for="item in items" :key="item.id" class="shadow-lg rounded-lg">
-        <img :src="`_nuxt/assets/images/` + item.image"  class="object-cover rounded-lg " alt="Item image" />
+        <img :src="item.image"  class="object-cover rounded-lg " alt="Item image" />
       </SwiperSlide>
     </Swiper>
     </section>

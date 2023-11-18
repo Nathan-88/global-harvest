@@ -46,11 +46,11 @@
             <p>GHN-CANADA: Contact</p>
         </div>
         <!-- input container -->
-        <div class="flex flex-col justify-between">
+        <div class="flex flex-col justify-between max-w-full">
             <form>
-                <div class="flex space-x-3">
+                <div class="flex space-x-2">
                     <input type="email" id="email" name="email" class="flex-1 px-4 rounded-full focus:outline-none" placeholder="Enter your email" />
-                    <button class="px-6 py-2 rounded-full bg-brown text-white hover:bg-amber-700 focus:outline-none">Subscribe</button>
+                    <button class="px-5 py-2 rounded-full bg-brown text-white hover:bg-amber-700 focus:outline-none">Subscribe</button>
     
                 </div>
             </form>

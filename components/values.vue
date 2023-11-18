@@ -1,5 +1,5 @@
 <template>
-    <section class="md:grid sm:grid-cols-2 lg:grid-cols-4 p-6 mx-4 gap-3 space-y-4">
+    <section class="md:grid sm:grid-cols-2 lg:grid-cols-4 p-6 mx-2 gap-3 space-y-4">
         <div class="shadow-lg rounded-lg bg-teal-800 text-white  mx-4 p-8 mt-4 ">
             <h2 class="p-4 text-center font-bold">SPIRITUAL CONNECTION</h2>
             <p>We're here to be your anchor in life's journey. Join our community to nurture and strengthen your relationship with God through devotionals, prayer groups, and inspiring content, keeping your Christian faith at the forefront of your life.</p>

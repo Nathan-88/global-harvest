@@ -30,11 +30,11 @@
         </div>
         <!-- List containers -->
         <div class=" text-white md:pt-4 md:hidden lg:block">
-            <ul class="list-none w-fit flex flex-col justify-around space-y-4">
+            <ul class="list-none w-fit flex flex-col justify-around items-center space-y-4">
             <li class="list"><NuxtLink to="/">Home</NuxtLink></li>
             <li class="list"><NuxtLink to="/about">About</NuxtLink></li>
             <li class="list"><NuxtLink to="/blog/blog">Blog</NuxtLink></li>
-            <li class="list"><NuxtLink to="/#comm">communities</NuxtLink></li>
+            <li class="list"><NuxtLink to="/#comm">Communities</NuxtLink></li>
             <li class="list"><NuxtLink to="/#gallery">Gallery</NuxtLink></li>
             </ul>
         </div>

@@ -7,7 +7,7 @@
             <div class="px-2 md:px-6 text-gray-950">
                 <div class="pt-8 pb-4">
                     <span class="text-xl pr-3 font-bold">GLOBAL COMMUNITY:</span>
-                    <p class="mt-2 md:text-base"> You are not alone. Global Harvest And Network connects you with like-minded individuals from various parts of the world who share your experiences and challenges. Our platform fosters a sense of belonging and camaraderie, allowing you to build a meaningful lasting relationship with fellow reliable believers.
+                    <p class="mt-2 md:text-base"> You are not alone. Global Harvest Network connects you with like-minded individuals from various parts of the world who share your experiences and challenges. Our platform fosters a sense of belonging and camaraderie, allowing you to build a meaningful lasting relationship with fellow reliable believers.
                     </p>
                 </div>
                 <div class="py-4">

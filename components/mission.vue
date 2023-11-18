@@ -1,5 +1,5 @@
 <template>
-    <section class=" mx-auto my-10 p-6 max-w-md md:max-w-full md:w-[70vw] rounded-lg">
+    <section class=" mx-auto my-10 p-6 max-w-md md:max-w-full md:w-[75vw] rounded-lg">
         <h2 class="font-bold text-3xl text-center underline decoration-gray-700 decoration-double">VISION AND MISSION STATEMENT</h2>
         <p class="p-4">
             <span class="font-semibold text-2xl">Vision Statement: </span>

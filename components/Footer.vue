@@ -10,7 +10,7 @@
             <!-- logo -->
             <div class="pb-1">
                 <NuxtLink to="/"><img class="md:mx-auto h-32" src="../assets/images/global-harvest-preview.png" alt="Global Harvest Network logo" ></NuxtLink>
-                <p class="text-xs text-white md:text-sm font-bold">Global Harvest Network</p>
+                <p class="text-xs text-white md:text-sm font-bold">Global Harvest & Network</p>
             </div>
             <!-- Social Links Container -->
             <div class="flex md:justify-center space-x-6 pb-4 md:pt-4">
@@ -20,7 +20,7 @@
                 </NuxtLink>
                 <!-- Link 2 -->
                 <NuxtLink href="#" class="active:scale-90">
-                    <img src="../assets/images/twitter.png" />
+                    <img src="../assets/images/x.png" />
                 </NuxtLink>
                 <!-- Link 3 -->
                 <NuxtLink href="https://www.instagram.com/globalharvestnetwork?igshid=bHh1djM3MDNxMzRt" target="_blank" class=" active:scale-90">
@@ -40,10 +40,10 @@
         </div>
         <!-- contacts -->
         <div class=" text-white flex flex-col justify-around space-y-2">
-            <p>GHN-NIGERIA: Contact</p>
-            <p>GHN-USA: Contact</p>
-            <p>GHN-UK: Contact</p>
-            <p>GHN-CANADA: Contact</p>
+            <p>GHN-NIGERIA: Null</p>
+            <p>GHN-USA: Null</p>
+            <p>GHN-UK: Null</p>
+            <p>GHN-CANADA: Null</p>
         </div>
         <!-- input container -->
         <div class="flex md:flex-col justify-between">

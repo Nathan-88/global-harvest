@@ -11,12 +11,10 @@
           <img class="rounded-lg h-[630px] object-cover object-center" src="../assets/images/about.webp"/>
         </div>
         <div class="text-gray-950 lg:grid content-center">
-          <h2 class="text-3xl font-bold pb-4 md:text-3xl">About Global Harvest Network</h2>
-          <p class="max-w-full">At Global Harvest Network, we
+          <h2 class="text-3xl font-bold pb-4 md:text-3xl">About Global & Harvest Network</h2>
+          <p class="max-w-full">At Global Harvest And Network, we
           exist to empower and uplift believers who have embarked on the courageous
-          journey of living out their faith in a foreign country. Global Harvest
-          Network is not just an outreach; its rather a family of believers committed to
-          walking the faith journey together. . We invite you to become a part of our community, connect with Christians from around the world, and discover the strength that comes from unity in Christ. No matter where you are, your faith can flourish. Let Global Harvest Network be your guide as you live out your Christian calling in a diverse and dynamic world.</p>
+          journey of living out their faith in a foreign country. Global Harvest And Network is not just an outreach; its rather a family of believers committed to walking the faith journey together. . We invite you to become a part of our community, connect with Christians from around the world, and discover the strength that comes from unity in Christ. No matter where you are, your faith can flourish. Let Global Harvest And Network be your guide as you live out your Christian calling in a diverse and dynamic world.</p>
           <p class="hidden md:block mt-4">
             Together, We Harvest Faith Across Continents with the commitment to building a strong global homogeneous community of believers who share a common bond in Christ until we all come to the point where we are referred to as homeostasis sect that remain relatively constant despite changes in our external environment…
           </p>

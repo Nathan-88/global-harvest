@@ -25,6 +25,7 @@ export default defineEventHandler(async (event) => {
 
   try {
     await sgMail.send(msg);
+    console.log('Email sent successfully');
     return { success: true, message: 'Email sent successfully!' };
   } catch (error) {
     console.error('Error sending email:', error);

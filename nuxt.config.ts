@@ -14,7 +14,9 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public:{
-      SENDGRID_API_KEY: process.env.SENDGRID_API_KEY
+      SENDGRID_API_KEY: process.env.SENDGRID_API_KEY,
+      mailchimpApiKey: process.env.MAILCHIMP_API_KEY,
+      mailchimpListId: process.env.MAILCHIMP_LIST_ID
     }
   }
   // ssr: false,

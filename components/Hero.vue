@@ -1,5 +1,5 @@
 <template>
-    <section class="relative text-left h-[70vh] lg:min-h-screen bg-hero bg-cover bg-no-repeat bg-center ">
+    <section class="relative text-left h-[70vh] xl:min-h-screen bg-hero bg-cover bg-no-repeat bg-center ">
         <!-- Content Container -->
         <!-- py-32 md:py-36 px-4 md:px-20-->
         <div class="container absolute top-[55%] left-[3%] -translate-y-1/2 text-white w-4/5 md:w-3/4 xl:w-3/5 ">

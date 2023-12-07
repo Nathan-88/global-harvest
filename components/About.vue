@@ -29,7 +29,7 @@
         <div class="xl:shrink-0 relative">
                 <img class="h-auto w-full rounded-lg obect-cover transition duration-1000 md:hover:scale-110" src="../assets/images/Rectangle 2.png" alt="community picture" />
                 <div class="md:hidden p-1 px-3 rounded-md absolute bottom-0 w-full bg-black bg-opacity-20 p-6 text-white ">
-                    <NuxtLink to="/about" class="font-bold text-xl">Learn more <span class="ml-1 text-xl text-center ">&#187</span></NuxtLink>
+                    <NuxtLink to="/about" class="font-bold text-xl">Learn more <span class="ml-1 text-xl text-center "> &#187</span></NuxtLink>
                 </div>
         </div>
         <div class="hidden md:inline-block xl:shrink-0">

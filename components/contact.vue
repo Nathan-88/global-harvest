@@ -14,7 +14,7 @@
 
                   <div class="mb-4">
                   <label for="email" class="block font-bold mb-2">Email</label>
-                  <input v-model="email" type="email" id="email" name="email" required class="border rounded w-full py-2 px-3">
+                  <input v-model="email" type="email" id="email" name="email" required  @input="validateEmail" class="border rounded w-full py-2 px-3">
                   </div>
 
                   <div class="mb-4">
@@ -45,28 +45,41 @@ export default {
       name: '',
       email: '',
       question: '',
+      isValidEmail: true,
     };
   },
   methods: {
-      onSubmit() {
-      const formData = {
-        name: this.name,
-        email: this.email,
-        question: this.question,
-      };
+    validateEmail() {
+      const emailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      this.isValidEmail = emailRegex.test(this.email);
+    },
+    onSubmit() {
+      if (this.isValidEmail) {
+        const formData = {
+          name: this.name,
+          email: this.email,
+          question: this.question,
+        };
 
-      axios.post('/api/send-mail', formData)
-      .then(() => {
-        console.log('Email sent sucessfully');
-        alert('Your message has been sent successfully!');
-        this.name ='';
-        this.email = '';
-        this.question = '';
-      })
-      .catch((error) => {
-        console.error('Error sending email:', error);
-        alert('An error occurred while sending your message. Please try again later.');
-      });
+        axios.post('/api/send-mail', formData)
+          .then((response) => {
+            if (response.data.success) {
+          alert('Your message has been sent successfully!');
+          this.name = '';
+          this.email = '';
+          this.question = '';
+        } else {
+          alert('An error occurred while sending your message. Please try again later.');
+          console.error('Server-side error:', response.data.error);
+        }
+          })
+          .catch((error) => {
+            console.error('Error sending email:', error);
+            alert('An error occurred while sending your message. Please try again later.');
+          });
+      } else {
+        alert('Please enter a valid email address before submitting the form.');
+      }
     },
   },
 };

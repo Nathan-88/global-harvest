@@ -1,19 +1,16 @@
 <template>
     <!-- grid md:grid-cols-4 space-x-4 p-6 space-y-4 bg-black text-white -->
-    <div class="bg-black flex flex-col-reverse justify-between px-6 py-8 mx-auto space-y-8 md:flex-row md:space-y-0"> 
+    <div class="bg-black flex flex-col-reverse max-[480px]:items-center justify-between px-4 py-1 md:py-8 mx-auto space-y-8 md:flex-row md:space-y-0">
         <!-- logo and social links container -->
-        <div class="flex flex-col-reverse md:items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+        <div class="flex flex-col items-center justify-between max-[480px]:my-6 space-y-6 md:space-y-0 md:items-start">
             <!-- copy rights only on phone screen -->
-            <div class="mx-auto mt-4 text-center text-white md:hidden">
-                Copyright &copy; 2023, All Rights Reserved
-            </div>
             <!-- logo -->
             <div class="pb-1">
                 <NuxtLink to="/"><img class="md:mx-auto h-32" src="../assets/images/global-harvest-preview.png" alt="Global Harvest Network logo" ></NuxtLink>
                 <p class="text-xs text-white md:text-sm font-bold">Global Harvest & Network</p>
             </div>
             <!-- Social Links Container -->
-            <div class="flex md:justify-center space-x-6 pb-4 md:pt-4">
+            <div class="flex md:justify-center md:mx-auto space-x-6 pb-2 md:pt-4">
                 <!-- Link 1 -->
                 <NuxtLink href="https://m.facebook.com/p/Global-Harvest-Network-61553665675623" target="_blank" class=" active:scale-90">
                     <img src="../assets/images/facebook.png" />
@@ -26,6 +23,9 @@
                 <NuxtLink href="https://www.instagram.com/globalharvestnetwork?igshid=bHh1djM3MDNxMzRt" target="_blank" class=" active:scale-90">
                     <img src="../assets/images/instagram.png" />
                 </NuxtLink>
+            </div>
+            <div class="mx-auto text-center text-white md:hidden">
+                Copyright &copy; 2023, All Rights Reserved
             </div>
         </div>
         <!-- List containers -->
@@ -47,13 +47,7 @@
         </div>
         <!-- input container -->
         <div class="flex md:flex-col justify-between">
-            <form>
-                <div class="flex space-x-3 w-full">
-                    <input type="email" id="email" name="email" class="px-5 w-[100%] rounded-full focus:outline-none" placeholder="Enter your email" />
-                    <button class="px-5 py-2 rounded-full bg-brown text-white active:bg-amber-700 focus:outline-none">Subscribe</button>
-    
-                </div>
-            </form>
+            <subscribe />
             <div class="hidden text-white md:block">
                 Copyright &copy; 2023, All Rights Reserved
             </div>

@@ -4,10 +4,10 @@
     <div class="mx-auto mb-16">
       <!-- pic and text -->
       <div class="text-start md:grid md:content-center grid-cols-2 gap-x-12 mx-auto">
-        <div class="clips hidden lg:block">
+        <div class="clips hidden xl:block">
           <img class="rounded-lg object-cover h-[530px] object-center" src="../assets/images/about.webp"/>
         </div>
-        <div class="hidden md:block lg:hidden">
+        <div class="hidden md:block xl:hidden">
           <img class="rounded-lg h-[630px] object-cover object-center" src="../assets/images/about.webp"/>
         </div>
         <div class="text-gray-950 lg:grid content-center">
@@ -26,17 +26,17 @@
     </div>
     <!--three images -->
     <div class="mx-auto md:flex space-y-6  space-x-6 md:space-y-0">
-        <div class="lg:shrink-0 relative">
-                <img class="h-auto w-full rounded-lg obect-cover" src="../assets/images/Rectangle 2.png" alt="community picture" />
+        <div class="xl:shrink-0 relative">
+                <img class="h-auto w-full rounded-lg obect-cover transition duration-1000 md:hover:scale-110" src="../assets/images/Rectangle 2.png" alt="community picture" />
                 <div class="md:hidden p-1 px-3 rounded-md absolute bottom-0 w-full bg-black bg-opacity-20 p-6 text-white ">
                     <NuxtLink to="/about" class="font-bold text-xl">Learn more <span class="ml-1 text-xl text-center ">&#187</span></NuxtLink>
                 </div>
         </div>
-        <div class="hidden md:inline-block lg:shrink-0">
-                <img class="h-auto w-full rounded-lg obect-cover" src="../assets/images/Rectangle 11.png" alt="community picture" />
+        <div class="hidden md:inline-block xl:shrink-0">
+                <img class="h-auto w-full rounded-lg obect-cover transition duration-1000 hover:scale-110" src="../assets/images/Rectangle 11.png" alt="community picture" />
         </div>
-        <div class="hidden lg:inline-block lg:shrink-0">
-                <img class="h-auto w-full rounded-lg obect-cover" src="../assets/images/Rectangle3.png" alt="community picture" />
+        <div class="hidden lg:inline-block xl:shrink-0">
+                <img class="h-auto w-full rounded-lg obect-cover transition duration-1000 hover:scale-110" src="../assets/images/Rectangle3.png" alt="community picture" />
         </div>    
     </div>
     <hr>

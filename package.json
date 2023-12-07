@@ -2,8 +2,8 @@
   "name": "nuxt-app",
   "private": true,
   "engines": {
-      "node": "18.x"
-   },
+    "node": "18.x"
+  },
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -29,6 +29,7 @@
     "@sendgrid/mail": "^7.7.0",
     "@vueuse/nuxt": "^10.5.0",
     "axios": "^1.6.2",
+    "mailchimp-api-v3": "^1.15.0",
     "nuxt-swiper": "^1.2.2"
   }
 }

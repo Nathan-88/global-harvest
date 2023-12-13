@@ -3,12 +3,12 @@
 
     <div class="mx-auto mb-16">
       <!-- pic and text -->
-      <div class="text-start md:grid md:content-center grid-cols-2 gap-x-12 mx-auto">
-        <div class="clips hidden xl:block">
+      <div class="text-start md:grid md:content-center grid-cols-2 sm:gap-x-6 lg:gap-x-12 mx-auto">
+        <div class="clips hidden lg:block xl:block">
           <img class="rounded-lg object-cover h-[530px] object-center" src="../assets/images/about.webp"/>
         </div>
-        <div class="hidden md:block xl:hidden">
-          <img class="rounded-lg h-[630px] object-cover object-center" src="../assets/images/about.webp"/>
+        <div class="hidden md:block lg:hidden xl:hidden">
+          <img class="rounded-lg sm:h-[600px] min-[912px]:h-[520px] object-cover object-center" src="../assets/images/about.webp"/>
         </div>
         <div class="text-gray-950 lg:grid content-center">
           <h2 class="text-3xl font-bold pb-4 md:text-3xl">About Global Harvest & Network</h2>

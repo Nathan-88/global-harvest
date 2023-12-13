@@ -1,6 +1,6 @@
 <template>
     <section class=" ">
-        <div class="relative mx-auto text-center bg-cover bg-center flex flex-col justify-center text-white items-center max-w-full h-[40vh]  bg-bible xl:h-[60vh]">
+        <div class="relative mx-auto text-center bg-cover bg-center flex flex-col justify-center text-white items-center max-w-full h-[40vh]  bg-bible sm:h-[50vh] lg:h-[60vh] xl:h-[60vh] xl:max-h-[698px]">
             <h2 class="text-xl mdtext-4xl sm:text-3xl font-extrabold mb-4">Learn more about Global Harvest & Network</h2>
             <p class="text-md font-medium md:text-2xl mb-6 whitespace-normal">See What God can do through you</p>
         </div>
@@ -13,7 +13,7 @@
                 <img class="rounded-lg h-full object-cover object-center" src="../assets/images/together.png"/>
             </div>
             <div class="pt-5 hidden md:block xl:hidden">
-                <img class=" rounded-lg h-[800px] object-cover object-center" src="../assets/images/together.png"/>
+                <img class=" rounded-lg h-[830px] min-[768px]:h-[870px] min-[912px]:h-[750px] lg:h-[700px] min-[1143px]:h-[600px] object-cover object-center" src="../assets/images/together.png"/>
             </div>
             <div class="md:p-4">
                 <h2 class="text-3xl font-bold pb-4 md:text-3xl underline decoration-gray-700 decoration-double">Welcome to Global Harvest & Network</h2>

@@ -1,6 +1,6 @@
 <template>
     <!-- grid md:grid-cols-4 space-x-4 p-6 space-y-4 bg-black text-white -->
-    <div class="bg-black flex flex-col-reverse max-[480px]:items-center justify-between px-4 py-1 md:py-8 mx-auto space-y-8 md:flex-row md:space-y-0">
+    <div class="bg-black flex flex-col-reverse max-[760px]:items-center justify-between px-4 py-1 md:py-8 mx-auto space-y-8 md:flex-row md:space-y-0">
         <!-- logo and social links container -->
         <div class="flex flex-col items-center justify-between max-[480px]:my-6 space-y-6 md:space-y-0 md:items-start">
             <!-- copy rights only on phone screen -->

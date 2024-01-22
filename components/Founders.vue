@@ -1,6 +1,6 @@
 <template>
   <section class="p-4 lg:p-8">
-    <h2 class=" p-4 text-3xl text-center underline decoration-gray-700 decoration-double font-bold pb-4 lg:pb-10  md:text-3xl">Our Founders</h2>
+    <h2 class=" p-4 text-3xl text-center underline decoration-gray-700 decoration-double font-bold pb-4 lg:pb-10  md:text-3xl">The Convener - G.H.A.N</h2>
 
       <div class="w-[100%] flex flex-col md:flex-row justify-center items-start p-4 md:p-6 md:gap-[5%]">
 
@@ -20,11 +20,3 @@
     
   </section>
 </template>
-
-<script setup>
-
-</script>
-
-<style>
-
-</style>

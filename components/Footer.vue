@@ -10,15 +10,12 @@
                 <p class="text-xs text-white md:text-sm font-bold">Global Harvest & Network</p>
             </div>
             <!-- Social Links Container -->
-            <div class="flex md:justify-center md:mx-auto space-x-6 pb-2 md:pt-4">
+            <div class="flex md:justify-center space-x-6 md: pb-2 md:pt-4">
                 <!-- Link 1 -->
                 <NuxtLink href="https://m.facebook.com/p/Global-Harvest-Network-61553665675623" target="_blank" class=" active:scale-90">
                     <img src="../assets/images/facebook.png" />
                 </NuxtLink>
                 <!-- Link 2 -->
-                <NuxtLink href="#" class="active:scale-90">
-                    <img src="../assets/images/x.png" />
-                </NuxtLink>
                 <!-- Link 3 -->
                 <NuxtLink href="https://www.instagram.com/globalharvestnetwork?igshid=bHh1djM3MDNxMzRt" target="_blank" class=" active:scale-90">
                     <img src="../assets/images/instagram.png" />
@@ -39,11 +36,11 @@
             </ul>
         </div>
         <!-- contacts -->
-        <div class=" text-white flex flex-col justify-around space-y-2">
-            <p>GHN-NIGERIA: Null</p>
-            <p>GHN-USA: Null</p>
-            <p>GHN-UK: Null</p>
-            <p>GHN-CANADA: Null</p>
+        <div class="text-white flex flex-col items-center justify-around space-y-2">
+            <p>Email contacts:</p>
+            <a class="hover:text-red-200" href="mailto:admin@globalharvestnetworks.com">admin@globalharvestnetworks.com</a>
+            <a class="hover:text-red-200" href="mailto:flora.eyimife@globalharvestnetworks.com">flora.eyimife@globalharvestnetworks.com</a>
+            <a class="hover:text-red-200" href="mailto:globalharvestnetwork2@gmail.com">globalharvestnetwork2@gmail.com</a>
         </div>
         <!-- input container -->
         <div class="flex md:flex-col justify-between">

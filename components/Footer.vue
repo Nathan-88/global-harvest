@@ -40,7 +40,7 @@
             <p>Email contacts:</p>
             <a class="hover:text-red-200" href="mailto:admin@globalharvestnetworks.com">admin@globalharvestnetworks.com</a>
             <a class="hover:text-red-200" href="mailto:flora.eyimife@globalharvestnetworks.com">flora.eyimife@globalharvestnetworks.com</a>
-            <a class="hover:text-red-200" href="mailto:globalharvestnetwork2@gmail.com">globalharvestnetwork2@gmail.com</a>
+            <!-- <a class="hover:text-red-200" href="mailto:globalharvestnetwork2@gmail.com">globalharvestnetwork2@gmail.com</a> -->
         </div>
         <!-- input container -->
         <div class="flex md:flex-col justify-between">

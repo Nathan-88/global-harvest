@@ -13,7 +13,10 @@ export default defineEventHandler(async (event) => {
   sgMail.setApiKey(SENDGRID_API_KEY);
 
   const msg = {
-    to: { email: 'onwukaebuka88@gmail.com' }, // Replace with your recipient's email address
+    to: [
+      { email: 'globalharvestnetwork2@gmail.com' },
+      { email: 'admin@globalharvestnetworks.com' },
+    ],
     from: { email: 'office@noteopx.com' }, // Replace with your preferred sender email
     subject: 'GLOBAL HARVEST NETWORK FORM',
     text: `

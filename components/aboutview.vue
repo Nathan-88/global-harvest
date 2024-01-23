@@ -15,7 +15,7 @@
             <div class="pt-5 hidden md:block xl:hidden">
                 <img class=" rounded-lg h-[830px] min-[768px]:h-[870px] min-[912px]:h-[750px] lg:h-[700px] min-[1143px]:h-[600px] object-cover object-center" src="../assets/images/together.png"/>
             </div>
-            <div class="md:p-4">
+            <div class="md:p-4  font-medium">
                 <h2 class="text-3xl font-bold pb-4 md:text-3xl underline decoration-gray-700 decoration-double">Welcome to Global Harvest & Network</h2>
                 <p class="py-4">
                     Welcome to Global Harvest And Network, a vibrant and Christ-Centered community that connect Christians from diverse backgrounds and locations in fellowship, prayer and spiritual support.

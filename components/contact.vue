@@ -1,6 +1,4 @@
 <template>
-  <!-- action="https://formspree.io/f/mvojnayn"
-  method="POST" -->
   <section id="comm" class="mx-auto max-w-md overflow-hidden rounded-lg pt-12 lg:mt-6 md:max-w-full mb-20">
         <div class="flex flex-col-reverse md:flex-row lg:grid lg:grid-cols-2">
             <div class="px-6 w-full md:pr-0 lg:pr-6">
@@ -35,6 +33,59 @@
         </div>
     </section>
 </template>
+
+
+
+<!-- <script setup>
+import { ref } from 'vue'
+import emailjs from '@emailjs/browser'
+
+const name = ref('')
+const email = ref('')
+const question = ref('')
+const emailError = ref('')
+const formRef = ref(null)
+
+const validateEmail = () => {
+  const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  emailError.value = pattern.test(email.value) ? '' : 'Please enter a valid email address.'
+}
+
+const onSubmit = () => {
+  validateEmail()
+
+  if (!name.value || !email.value || !question.value) {
+    alert('Please fill in all fields.')
+    return
+  }
+
+  if (emailError.value) {
+    alert('Invalid email address.')
+    return
+  }
+
+  emailjs
+    .sendForm(
+      'service_574arfl',
+      'template_02s5ld9',
+      formRef.value,
+      {
+        publicKey: 'MClBNE_KwALjjaUuf',
+      }
+    )
+    .then(() => {
+      alert('Message sent successfully!')
+      name.value = ''
+      email.value = ''
+      question.value = ''
+    })
+    .catch((error) => {
+      console.error('FAILED...', error.text)
+      alert('There was an error sending your message. Please try again.')
+    })
+}
+</script> -->
+
 
 <script>
 import axios from 'axios';
